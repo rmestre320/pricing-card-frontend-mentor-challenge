@@ -116,3 +116,19 @@ button:hover {
   font-size: 0.9rem;
   opacity: 0.8;
 }
+
+@media (max-width:650px) {
+  
+  #card {
+    width: 100%;
+    height: auto;
+  }
+  #bottom_section {
+    flex-direction: column;
+  }
+  
+  #bot_left_section, #bot_right_section {
+    width: 100%;
+  }
+  
+}
